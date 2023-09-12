@@ -1,0 +1,8 @@
+.geral {
+  background-color: aqua;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  align-items: start;
+  justify-content: space-between;
+}

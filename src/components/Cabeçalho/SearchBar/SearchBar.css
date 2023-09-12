@@ -1,0 +1,12 @@
+.search-bar {
+  height: auto;
+  margin-right: 5px;
+  display: flex;
+}
+
+.inputSearch {
+  height: 33px;
+  width: 600px;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,68 @@
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+.aplication {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.imageLogo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.logo h2,
+.estamosEm {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo span {
+  font-size: 30px;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 163px));
+  height: auto;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.plataforms {
+  display: flex;
+  height: 45px;
+  width: 150px;
+  display: flex;
+  background-color: black;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.icons {
+  height: 35px;
+}
+
+.AppStory h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.estamosEm {
+  margin-bottom: 20px;
+}
+
+.iconSocial {
+  display: flex;
+  font-size: 40px;
+  justify-content: space-between;
+}

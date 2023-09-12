@@ -1,0 +1,21 @@
+.Servicos {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.reference {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 25px;
+  color: black;
+}
+
+.navegação {
+  display: flex;
+  flex-direction: column;
+}
