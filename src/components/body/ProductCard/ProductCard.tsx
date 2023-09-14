@@ -27,7 +27,7 @@ function ProductCard({ data }: ProductCardProps) {
         <h2 className="card__title">{data.title}</h2>
       </div>
 
-      <button className="button__add-cart">
+      <button className="button__add-cart" aria-label="Adicionar ao carrinho">
         <BsFillCartPlusFill />
       </button>
     </section>

@@ -1,5 +1,5 @@
-import style from "../css/SignUp.module.css";
-import image1 from "../image/login_icon.png";
+import style from "../../../css/SignUp.module.css";
+import image1 from "../../../image/login_icon.png";
 
 function Signup() {
   return (

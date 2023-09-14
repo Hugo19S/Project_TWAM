@@ -1,4 +1,4 @@
-import "../../css/Cabecalho.css";
+import "./Cabecalho.css";
 import image from "../../image/ForSaleLogo.png";
 import image1 from "../../image/login_icon.png";
 import CartButton from "./CartButton/CartButton";
