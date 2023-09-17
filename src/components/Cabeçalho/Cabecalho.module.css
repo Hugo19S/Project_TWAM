@@ -1,4 +1,4 @@
-.Cabecalho {
+.cabecalho {
   background-color: aqua;
   height: 70px;
   width: 100%;
@@ -14,7 +14,7 @@
   z-index: 2;
 }
 
-#menu-bar {
+#menu_bar {
   width: 45px;
   height: 40px;
   cursor: pointer;
@@ -70,7 +70,7 @@
   font-weight: bold;
 }
 
-.menu-bg {
+.menu_bg {
   z-index: 1;
   width: 0;
   height: 0;
@@ -96,7 +96,7 @@
   transform: translateY(-6px) rotateZ(45deg);
 }
 
-.change-bg {
+.change_bg {
   width: 500px;
   height: 400px;
   transform: translate(-60%, 0);
@@ -120,13 +120,6 @@
   align-items: center;
   margin: 0;
   padding: 0;
-}
-
-#buttonSearch {
-  height: 35px;
-  border: none;
-  background: white;
-  font-size: 1rem;
 }
 
 .promocoes ul a {

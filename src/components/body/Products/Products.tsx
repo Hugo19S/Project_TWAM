@@ -1,4 +1,4 @@
-import "./Products.css";
+import styleProducts from "./Products.module.css";
 import { useState, useEffect } from "react";
 import fetchProducts from "../../../api/fetchProducts";
 import ProductCard from "../ProductCard/ProductCard";
@@ -24,7 +24,7 @@ function Products() {
 
   return (
     (loading && <Loading />) || (
-      <section className="products">
+      <section className={styleProducts.products}>
         {products.map((product) => (
           <ProductCard key={product.id} data={product} />
         ))}

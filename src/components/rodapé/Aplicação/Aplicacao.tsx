@@ -1,4 +1,4 @@
-import "./Aplicacao.css";
+import styleAplicacao from "./Aplicacao.module.css";
 import imageLogo from "../../../image/ForSaleLogo.png";
 import imageApple from "../../../image/apple_icon.png";
 import imagePaly from "../../../image/playstore_icon.png";
@@ -15,35 +15,51 @@ import {
 function Aplicacao() {
   return (
     <div>
-      <div className="firstDiv">
-        <div className="aplication">
-          <img src={imageLogo} alt="" className="imageLogo" />
-          <div className="logo">
+      <div className={styleAplicacao.firstDiv}>
+        <div className={styleAplicacao.aplication}>
+          <img
+            src={imageLogo}
+            alt="imageLogo"
+            className={styleAplicacao.imageLogo}
+          />
+          <div className={styleAplicacao.logo}>
             <h2>APP ForSale</h2>
             <span>A loja nas suas mãos.</span>
           </div>
         </div>
 
-        <div className="group">
-          <div className="plataforms">
-            <img src={imageApple} alt="" className="icons" />
-            <div className="AppStory">
+        <div className={styleAplicacao.group}>
+          <div className={styleAplicacao.plataforms}>
+            <img
+              src={imageApple}
+              alt="appleIcon"
+              className={styleAplicacao.icons}
+            />
+            <div className={styleAplicacao.AppStory}>
               <span>Descarregar na</span>
               <h3>App Story</h3>
             </div>
           </div>
 
-          <div className="plataforms">
-            <img src={imagePaly} alt="" className="icons" />
-            <div className="AppStory">
+          <div className={styleAplicacao.plataforms}>
+            <img
+              src={imagePaly}
+              alt="GooglePalyIcon"
+              className={styleAplicacao.icons}
+            />
+            <div className={styleAplicacao.AppStory}>
               <span>Disponível no</span>
               <h3>Google Play</h3>
             </div>
           </div>
 
-          <div className="plataforms">
-            <img src={imageGallery} alt="" className="icons" />
-            <div className="AppStory">
+          <div className={styleAplicacao.plataforms}>
+            <img
+              src={imageGallery}
+              alt="GalleryIcon"
+              className={styleAplicacao.icons}
+            />
+            <div className={styleAplicacao.AppStory}>
               <span>Descarregar na</span>
               <h3>App Story</h3>
             </div>
@@ -51,8 +67,8 @@ function Aplicacao() {
         </div>
 
         <div>
-          <h3 className="estamosEm">Estamos onde tu estás.</h3>
-          <div className="iconSocial">
+          <h3 className={styleAplicacao.estamosEm}>Estamos onde tu estás.</h3>
+          <div className={styleAplicacao.iconSocial}>
             <BsFacebook />
             <BsTwitter />
             <BsInstagram />

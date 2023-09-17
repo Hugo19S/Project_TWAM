@@ -1,10 +1,10 @@
 import { RiLoader4Line } from "react-icons/ri";
-import "./Loading.css";
+import styleLoading from "./Loading.module.css";
 
 function Loading() {
   return (
-    <div className="loader">
-      <RiLoader4Line className="loading" />
+    <div className={styleLoading.loader}>
+      <RiLoader4Line className={styleLoading.loading} />
     </div>
   );
 }

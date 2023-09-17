@@ -1,11 +1,11 @@
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import "../../../css/CartButton.css";
+import styleCartButton from "./CartButton.module.css";
 
 function CartButton() {
   return (
-    <button className="cart_button">
+    <button className={styleCartButton.cart_button}>
       <AiOutlineShoppingCart />
-      <span className="cart-status">1</span>
+      <span className={styleCartButton.cart_status}>1</span>
     </button>
   );
 }

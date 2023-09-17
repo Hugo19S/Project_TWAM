@@ -1,4 +1,4 @@
-.search-bar {
+.search_bar {
   height: auto;
   margin-right: 5px;
   display: flex;
@@ -9,4 +9,11 @@
   width: 600px;
   outline: none;
   border: none;
+}
+
+#buttonSearch {
+  height: 35px;
+  border: none;
+  background: white;
+  font-size: 1rem;
 }

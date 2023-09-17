@@ -1,4 +1,4 @@
-import "./Cabecalho.css";
+import styleCabecalho from "./Cabecalho.module.css";
 import image from "../../image/ForSaleLogo.png";
 import image1 from "../../image/login_icon.png";
 import CartButton from "./CartButton/CartButton";
@@ -26,15 +26,15 @@ export default function Cabecalho() {
   };
 
   return (
-    <header className="Cabecalho">
-      <div id="menu">
-        <div id="menu-bar" onClick={menuOnClick}>
-          <div id="bar1" className="bar"></div>
-          <div id="bar2" className="bar"></div>
-          <div id="bar3" className="bar"></div>
+    <header className={styleCabecalho.cabecalho}>
+      <div id={styleCabecalho.menu}>
+        <div id={styleCabecalho.menu_bar} onClick={menuOnClick}>
+          <div id={styleCabecalho.bar1} className={styleCabecalho.bar}></div>
+          <div id={styleCabecalho.bar2} className={styleCabecalho.bar}></div>
+          <div id={styleCabecalho.bar3} className={styleCabecalho.bar}></div>
         </div>
-        <nav className="nav" id="nav">
-          <ul className="menuOptions">
+        <nav className={styleCabecalho.nav} id={styleCabecalho.nav}>
+          <ul className={styleCabecalho.menuOptions}>
             <li>
               <a href="#">Home</a>
             </li>
@@ -54,26 +54,32 @@ export default function Cabecalho() {
         </nav>
       </div>
 
-      <div className="menu-bg" id="menu-bg"></div>
+      <div className={styleCabecalho.menu_bg} id={styleCabecalho.menu_bg}></div>
 
-      <nav id="forSaleLogo">
-        <a href="">{<img src={image} alt="buy" id="imageLogo" />}</a>
-        <a href="" id="forSale">
+      <nav id={styleCabecalho.forSaleLogo}>
+        <a href="">
+          {<img src={image} alt="buy" id={styleCabecalho.imageLogo} />}
+        </a>
+        <a href="" id={styleCabecalho.forSale}>
           ForSale
         </a>
       </nav>
 
       <SearchBar />
 
-      <nav className="promocoes">
+      <nav className={styleCabecalho.promocoes}>
         <ul>
           <a href="#">Promoções</a>
         </ul>
       </nav>
 
-      <div className="loginDiv">
-        <img src={image1} alt="LogInIcon" className="iconLogin" />
-        <div className="mensagem">
+      <div className={styleCabecalho.loginDiv}>
+        <img
+          src={image1}
+          alt="LogInIcon"
+          className={styleCabecalho.iconLogin}
+        />
+        <div className={styleCabecalho.mensagem}>
           <span>Olá!</span>
           <span>menud</span>
         </div>

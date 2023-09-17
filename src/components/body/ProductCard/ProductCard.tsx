@@ -1,7 +1,7 @@
 /*
 Componente que contém os produtos
 */
-import "./ProductCard.css";
+import styleProductCard from "./ProductCard.module.css";
 import { BsFillCartPlusFill } from "react-icons/bs";
 import propTypes from "prop-types";
 import formatCurrency from "../formatCurrency/formatCurrency";
@@ -16,18 +16,25 @@ interface ProductCardProps {
 
 function ProductCard({ data }: ProductCardProps) {
   return (
-    <section className="product-card">
+    <section className={styleProductCard.product_card}>
       <img
         src={data.thumbnail.replace(/\w\.jpg/gi, "W.jpg")}
         alt="product"
-        className="card__image"
+        className={styleProductCard.card__image}
       />
-      <div className="card__infos">
-        <h2 className="card__price">{formatCurrency(data.price)}</h2>
-        <h2 className="card__title">{data.title}</h2>
+      <div className={styleProductCard.card__infos}>
+        <h2 id={styleProductCard.h2} className={styleProductCard.card__price}>
+          {formatCurrency(data.price)}
+        </h2>
+        <h2 id={styleProductCard.h2} className={styleProductCard.card__title}>
+          {data.title}
+        </h2>
       </div>
 
-      <button className="button__add-cart" aria-label="Adicionar ao carrinho">
+      <button
+        className={styleProductCard.button__add_cart}
+        aria-label="Adicionar ao carrinho"
+      >
         <BsFillCartPlusFill />
       </button>
     </section>
