@@ -1,11 +1,13 @@
-.geral {
+.Cabecalho {
   background-color: aqua;
   height: 70px;
+  width: 100%;
   flex-direction: row;
   display: flex;
   align-items: center;
   margin: 0;
   padding: 0;
+  position: absolute;
 }
 
 #menu {
@@ -96,11 +98,10 @@
 
 .change-bg {
   width: 500px;
-  height: 60%;
-  transform: translate(-60%, 42%);
+  height: 400px;
+  transform: translate(-60%, 0);
+  top: 0;
 }
-
-/**********************************************/
 
 #imageLogo {
   height: 60px;

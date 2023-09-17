@@ -1,8 +1,9 @@
-.geral {
-  background-color: aqua;
+.rodaPe {
+  background-color: #212121;
   height: auto;
+  padding: 20px 20px 50px 20px;
   margin: 0;
-  padding: 20px;
   align-items: start;
-  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
 }

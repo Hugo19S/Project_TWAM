@@ -1,48 +1,41 @@
-import "./Eventos.css";
-import imageEvent from "../../../image/event_1458512.png";
+import { FcMoneyTransfer } from "react-icons/fc";
 
-function Eventos() {
+function Money() {
   return (
     <div className="eventos">
       <div className="header">
-        <img src={imageEvent} alt="imageEvent" className="imageEvent" />
-        <h3>Eventos</h3>
+        <FcMoneyTransfer />
+        <h3>Ganhe dinheiro connosco</h3>
       </div>
 
       <nav className="navegação">
         <a href="" className="reference">
-          Ação de Graças
+          Vender produtos na Amazon
         </a>
         <a href="" className="reference">
-          Ano Novo
+          Vender na Amazon Business
         </a>
         <a href="" className="reference">
-          Carnaval
+          Vender aplicações na Amazon
         </a>
         <a href="" className="reference">
-          Dia da Amizade
+          Tornar-se um afiliado
         </a>
         <a href="" className="reference">
-          Dia das Mães
+          Anuncie os seus produtos
         </a>
         <a href="" className="reference">
-          Dia do Trabalhador
+          Auto-publicar connosco
         </a>
         <a href="" className="reference">
-          Dia dos Pais
+          Alojar um Amazon Hub
         </a>
         <a href="" className="reference">
           Dia Internacional da Mulher
-        </a>
-        <a href="" className="reference">
-          Valentine's Day
-        </a>
-        <a href="" className="reference">
-          Halloween
         </a>
       </nav>
     </div>
   );
 }
 
-export default Eventos;
+export default Money;

@@ -1,4 +1,4 @@
-import style from "../../../css/LoginPage.module.css";
+import style from "./LoginPage.module.css";
 import image1 from "../../../image/login_icon.png";
 
 function LoginPage() {

@@ -13,27 +13,21 @@ function Servicos() {
         <a href="" className="reference">
           Entregas
         </a>
-        <br />
         <a href="" className="reference">
           Devoluções
         </a>
-        <br />
         <a href="" className="reference">
           Cartão universo
         </a>
-        <br />
         <a href="" className="reference">
           Preço Mínimo Garantido
         </a>
-        <br />
         <a href="" className="reference">
           Política de Cookies
         </a>
-        <br />
         <a href="" className="reference">
           Ajuda
         </a>
-        <br />
       </nav>
     </div>
   );

@@ -26,7 +26,7 @@ export default function Cabecalho() {
   };
 
   return (
-    <div className="geral">
+    <header className="Cabecalho">
       <div id="menu">
         <div id="menu-bar" onClick={menuOnClick}>
           <div id="bar1" className="bar"></div>
@@ -80,6 +80,6 @@ export default function Cabecalho() {
       </div>
 
       <CartButton />
-    </div>
+    </header>
   );
 }

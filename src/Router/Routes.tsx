@@ -1,12 +1,18 @@
-/*import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route } from "react-router-dom";
 
-import Home from "../components/Cabecalho"
-import Login from "../components/LoginPage"
-import SignUp from "../components/SignUp"
+import Login from "../pages/LoginPage/LoginPage";
+import SignUp from "../pages/SignUp/SignUp";
+import { Container } from "reactstrap";
 
-const MyRoute = () =>{
-    return(
-        
-    );
-}*/
+const MyRoute = () => {
+  return (
+    <BrowserRouter>
+      <Container>
+        <Route path="/" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Container>
+    </BrowserRouter>
+  );
+};
+
+export default MyRoute;
