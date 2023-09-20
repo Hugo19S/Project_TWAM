@@ -11,6 +11,15 @@
   border: none;
 }
 
+@media (width < 600px) {
+  .inputSearch {
+    height: 35px;
+    width: 100px;
+    outline: none;
+    border: none;
+  }
+}
+
 #buttonSearch {
   height: 35px;
   border: none;

@@ -1,8 +1,15 @@
+.header_fixed {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
 .cabecalho {
-  background-color: aqua;
   height: 70px;
   width: 100%;
   flex-direction: row;
+  background-color: aqua;
   display: flex;
   align-items: center;
   margin: 0;
